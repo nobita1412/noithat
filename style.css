@@ -70,6 +70,156 @@ header .logo {
     color: #f66c27;
 }
 
+/*==OurProject CSS==*/
+.our-project {
+    height: 960px;
+    box-sizing: border-box;
+    max-height: 960px;
+    position: relative;
+}
+
+.sub-proj {
+    margin-top: 150px;
+}
+
+.proj-submit input[type="button"] {
+    border: none;
+    border-radius: 35px;
+    background: #f66c27;
+    color: #fff;
+    padding: 16px 42px;
+    margin-top: 10px;
+}
+
+.proj-img {
+    width: 316px;
+    height: 325px;
+    vertical-align: middle;
+}
+
+.proj-text {
+    width: 316px;
+    height: 325px;
+    vertical-align: middle;
+}
+
+.project-img {
+    width: 404px;
+    height: 671px;
+}
+.tbl {
+    padding: 0 4%;
+    position: absolute;
+    top: 150px;
+}
+
+table tr td img {
+    border: 8px solid #fff;
+    margin: 10px;
+}
+
+table tr td:first-child {
+    width: 375px;
+}
+
+#fixxx {
+    padding: 0 24px;
+    vertical-align: top;
+}
+
+#fixxx p {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+#fixxx p:first-child {
+    color: #f48146;
+}
+
+#fixxx h2 {
+    padding-bottom: 15px;
+}
+
+/*==WeMakeIt CSS==*/
+/*.wemakeit {*/
+    /*height: 750px;*/
+    /*width: 100%;*/
+    /*padding-top: 148px;*/
+    /*padding-left: 9%;*/
+    /*padding-right: 9%;*/
+/*}*/
+/*.we-img {*/
+    /*width: 50%;*/
+/*}*/
+/*.we-img2 {*/
+    /*float: left;*/
+    /*background: yellow;*/
+    /*position: relative;*/
+/*}*/
+/*.we-img2 img {*/
+    /*border: 8px solid #fff;*/
+/*}*/
+/*.we-text {*/
+    /*width: 50%;*/
+    /*float: left;*/
+    /*background: green;*/
+    /*padding-left: 724px;*/
+/*}*/
+/*.img1 {*/
+    /*position: absolute;*/
+/*}*/
+/*.img2 {*/
+    /*position: absolute;*/
+    /*top: 297px;*/
+    /*left: 354px;*/
+/*}*/
+
+/*.we-text {*/
+
+/*}*/
+.wemakeit {
+    height: 750px;
+    margin-left: 2%;
+}
+
+.we-img {
+    width: 50%;
+    float: left;
+}
+.we-text {
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.img1 {
+    width: 614px;
+    height: 440px;
+}
+
+.img1 img {
+    width: 614px;
+    height: 440px;
+    border: 8px solid #fff;
+
+}
+.we-img2 {
+    position: relative;
+}
+.img2 {
+    position: absolute;
+    top: 297px;
+    left: 354px;
+}
+.img2 img {
+    border: 8px solid #fff;
+}
+
+.we-text-true {
+    width: 575px;
+    padding-right: 25px;
+}
+
 /*==Footer CSS==*/
 footer {
     background: linear-gradient(to right, #f66c27 50%, #ffffff 50%);
