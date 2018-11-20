@@ -76,6 +76,7 @@ header .logo {
     box-sizing: border-box;
     max-height: 960px;
     position: relative;
+    margin: 0px auto;
 }
 
 .sub-proj {
@@ -179,7 +180,7 @@ table tr td:first-child {
 /*}*/
 .wemakeit {
     height: 750px;
-    margin-left: 2%;
+    margin: 0px auto;
 }
 
 .we-img {
@@ -191,10 +192,12 @@ table tr td:first-child {
     float: left;
     padding-left: 50px;
     box-sizing: border-box;
+    position: relative;
 }
 .img1 {
     width: 614px;
     height: 440px;
+    box-shadow: 35px 35px 50px 15px #e5e5e5;
 }
 
 .img1 img {
@@ -203,21 +206,192 @@ table tr td:first-child {
     border: 8px solid #fff;
 
 }
+.we-text-true h1 {
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 42px;
+}
+.we-info {
+    margin-top: 35px;
+}
+.we-info span {
+    font-size: 25px;
+    color: #ff7b38;
+    padding-right: 80px;
+}
+.we-content {
+    font-size: 15px;
+    margin-top: 25px;
+}
 .we-img2 {
     position: relative;
+    float: right;
+    top: 150px;
+    left: -20px;
 }
 .img2 {
     position: absolute;
     top: 297px;
     left: 354px;
+    box-shadow: 25px 25px 50px 15px #e5e5e5;
 }
 .img2 img {
     border: 8px solid #fff;
 }
 
 .we-text-true {
-    width: 575px;
+    width: 84%;
     padding-right: 25px;
+    top: 150px;
+    position: absolute;
+    left: 100px;
+    text-align: justify;
+    max-width: 575px;
+}
+.we-btn-info input[type=button] {
+    border: 0px;
+    border-radius: 50px;
+    height: 55px;
+    width: 185px;
+    font-size: 18px;
+    color: white;
+    background-color: #f48146;
+    margin-top: 45px;
+}
+
+/*==HowCan CSS==*/
+.howcan {
+    height: 575px;
+    margin: 0px auto;
+    max-width: 1600px;
+}
+.howcan h1 {
+    /*margin-left: 210px;*/
+    /*margin-left: 110px;*/
+    margin-left: 13.125%;
+}
+.how-op-par {
+    margin: 0px auto;
+    padding-top: 55px;
+}
+.how-op:hover {
+    box-shadow: 35px 35px 50px 15px #efeeee;
+}
+.how-op {
+    float: left;
+    width: 355px;
+    height: 378px;
+    margin: 0px auto;
+    text-align: center;
+    margin: 0px 32px;
+    padding: 80px 41px 0px 41px;
+}
+.op-img {
+    margin-bottom: 45px;
+}
+.op-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.op-content {
+    font-size: 15px;
+}
+.how-op ul li {
+
+}
+
+/*==TheWorld CSS==*/
+.theworld {
+    height: 960px;
+    text-align: center;
+}
+.theworld p {
+    font-size: 15px;
+    width: 870px;
+    margin: 0px auto;
+    line-height: 30px;
+}
+.theworld h1 {
+    font-size: 45px;
+    padding-top: 60px;
+    margin-bottom: 50px;
+}
+.world-img {
+    width: 100%;
+    height: 655px;
+    background: url("images/6.jpg") top center no-repeat;
+}
+
+/*==Subcribe== CSS*/
+.subcribe {
+    height: 360px;
+    width: 100%;
+    background: url("images/7.jpg") top center no-repeat;
+    text-align: center;
+}
+.subcrb-text {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 90px;
+}
+.subcrb-input input[type=text]{
+    font-size: 18px;
+    border-radius: 50px;
+    border: 3px solid #fff;
+    background-color: #f3f2f2;
+    width: 485px;
+    height: 55px;
+    padding-left: 30px;
+}
+.subcrb-submit input[type=button]{
+    border-radius: 50px;
+    border: 0px;
+    width: 185px;
+    height: 55px;
+    background-color: #f48146;
+    font-size: 18px;
+    color: #fff;
+    box-shadow: 0px 0px 50px 10px #c26d43;
+}
+.subcrb-form div {
+    display: inline-block;
+    padding: 50px 10px 0px 10px;
+}
+
+/*==Say CSS==*/
+.say {
+    height: 590px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+.say h1 {
+    font-size: 45px;
+    padding-top: 95px;
+    padding-bottom: 40px;
+    margin: 0px;
+}
+.say-content {
+    width: 830px;
+    margin: 0px auto;
+    padding-top: 20px;
+    line-height: 30px;
+}
+.say-info {
+    padding-top: 17px;
+}
+.say-name {
+    color: #fb8b52;
+    margin: 0px;
+}
+.say-major {
+    margin: 0px;
+}
+.say-slide p {
+    display: inline-block;
+    background-color: #fc7029;
+    width: 9px;
+    height: 9px;
+    margin-top: 37px;
 }
 
 /*==Footer CSS==*/
