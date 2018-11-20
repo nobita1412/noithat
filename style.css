@@ -109,9 +109,12 @@ header .logo {
     height: 671px;
 }
 .tbl {
-    padding: 0 4%;
     position: absolute;
     top: 150px;
+    width: 100%;
+}
+.tbl table {
+    margin: 0px auto;
 }
 
 table tr td img {
